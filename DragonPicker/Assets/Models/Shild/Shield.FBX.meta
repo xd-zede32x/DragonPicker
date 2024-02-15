@@ -1,88 +1,210 @@
 fileFormatVersion: 2
 guid: fa0a723e3534aca47bcf60641f2f3a8d
-timeCreated: 1461294514
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Box001
-    100002: //RootNode
-    100004: Sphere001
-    100006: Sphere002
-    100008: Sphere003
-    100010: Sphere004
-    100012: Sphere005
-    100014: Sphere006
-    100016: Sphere007
-    100018: Sphere008
-    100020: Sphere009
-    100022: Sphere010
-    400000: Box001
-    400002: //RootNode
-    400004: Sphere001
-    400006: Sphere002
-    400008: Sphere003
-    400010: Sphere004
-    400012: Sphere005
-    400014: Sphere006
-    400016: Sphere007
-    400018: Sphere008
-    400020: Sphere009
-    400022: Sphere010
-    2300000: Box001
-    2300002: Sphere001
-    2300004: Sphere002
-    2300006: Sphere003
-    2300008: Sphere004
-    2300010: Sphere005
-    2300012: Sphere006
-    2300014: Sphere007
-    2300016: Sphere008
-    2300018: Sphere009
-    2300020: Sphere010
-    3300000: Box001
-    3300002: Sphere001
-    3300004: Sphere002
-    3300006: Sphere003
-    3300008: Sphere004
-    3300010: Sphere005
-    3300012: Sphere006
-    3300014: Sphere007
-    3300016: Sphere008
-    3300018: Sphere009
-    3300020: Sphere010
-    4300000: Box001
-    4300002: Sphere001
-    4300004: Sphere002
-    4300006: Sphere003
-    4300008: Sphere004
-    4300010: Sphere005
-    4300012: Sphere006
-    4300014: Sphere007
-    4300016: Sphere008
-    4300018: Sphere009
-    4300020: Sphere010
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Box001
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Sphere001
+  - first:
+      1: 100006
+    second: Sphere002
+  - first:
+      1: 100008
+    second: Sphere003
+  - first:
+      1: 100010
+    second: Sphere004
+  - first:
+      1: 100012
+    second: Sphere005
+  - first:
+      1: 100014
+    second: Sphere006
+  - first:
+      1: 100016
+    second: Sphere007
+  - first:
+      1: 100018
+    second: Sphere008
+  - first:
+      1: 100020
+    second: Sphere009
+  - first:
+      1: 100022
+    second: Sphere010
+  - first:
+      4: 400000
+    second: Box001
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Sphere001
+  - first:
+      4: 400006
+    second: Sphere002
+  - first:
+      4: 400008
+    second: Sphere003
+  - first:
+      4: 400010
+    second: Sphere004
+  - first:
+      4: 400012
+    second: Sphere005
+  - first:
+      4: 400014
+    second: Sphere006
+  - first:
+      4: 400016
+    second: Sphere007
+  - first:
+      4: 400018
+    second: Sphere008
+  - first:
+      4: 400020
+    second: Sphere009
+  - first:
+      4: 400022
+    second: Sphere010
+  - first:
+      23: 2300000
+    second: Box001
+  - first:
+      23: 2300002
+    second: Sphere001
+  - first:
+      23: 2300004
+    second: Sphere002
+  - first:
+      23: 2300006
+    second: Sphere003
+  - first:
+      23: 2300008
+    second: Sphere004
+  - first:
+      23: 2300010
+    second: Sphere005
+  - first:
+      23: 2300012
+    second: Sphere006
+  - first:
+      23: 2300014
+    second: Sphere007
+  - first:
+      23: 2300016
+    second: Sphere008
+  - first:
+      23: 2300018
+    second: Sphere009
+  - first:
+      23: 2300020
+    second: Sphere010
+  - first:
+      33: 3300000
+    second: Box001
+  - first:
+      33: 3300002
+    second: Sphere001
+  - first:
+      33: 3300004
+    second: Sphere002
+  - first:
+      33: 3300006
+    second: Sphere003
+  - first:
+      33: 3300008
+    second: Sphere004
+  - first:
+      33: 3300010
+    second: Sphere005
+  - first:
+      33: 3300012
+    second: Sphere006
+  - first:
+      33: 3300014
+    second: Sphere007
+  - first:
+      33: 3300016
+    second: Sphere008
+  - first:
+      33: 3300018
+    second: Sphere009
+  - first:
+      33: 3300020
+    second: Sphere010
+  - first:
+      43: 4300000
+    second: Box001
+  - first:
+      43: 4300002
+    second: Sphere001
+  - first:
+      43: 4300004
+    second: Sphere002
+  - first:
+      43: 4300006
+    second: Sphere003
+  - first:
+      43: 4300008
+    second: Sphere004
+  - first:
+      43: 4300010
+    second: Sphere005
+  - first:
+      43: 4300012
+    second: Sphere006
+  - first:
+      43: 4300014
+    second: Sphere007
+  - first:
+      43: 4300016
+    second: Sphere008
+  - first:
+      43: 4300018
+    second: Sphere009
+  - first:
+      43: 4300020
+    second: Sphere010
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -90,25 +212,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -118,11 +264,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

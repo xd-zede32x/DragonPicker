@@ -3,13 +3,18 @@ using UnityEngine;
 
 namespace Dragon
 {
+    [RequireComponent(typeof(AudioSource))]
     public class Shield : MonoBehaviour
     {
         [SerializeField] private int _score;
         [SerializeField] private TextMeshProUGUI _scoreText;
 
+        private AudioSource _audioSource;
+
         private void Start()
         {
+            _audioSource = GetComponent<AudioSource>();
+
             GameObject scoreGameObject = GameObject.Find("ScoreText");
             _scoreText = scoreGameObject.GetComponent<TextMeshProUGUI>();
         }
@@ -37,6 +42,7 @@ namespace Dragon
                 Destroy(collision.gameObject);
 
             _score++;
+            _audioSource.Play();
         }
     }
 }
